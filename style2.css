@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+}
+
+p{
+    color:#FF00FF;
+    text-align:left;
+}
+
+h1{
+    text-align:center;
+    color:red;
+    font-size:400%
+}
+
+h2{
+    text-align:center;
+    color:blue;
+}
+
+h3{
+    color:white; 
+}
+
+ul{
+    border:1;
+    color:white;
+}
