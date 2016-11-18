@@ -2,10 +2,6 @@ body{
     background-color:black;
 }
 
-p{
-    color:#FF00FF;
-    text-align:left;
-}
 
 h1{
     text-align:center;
@@ -19,10 +15,65 @@ h2{
 }
 
 h3{
-    color:white; 
+    color:yellow; 
 }
 
 ul{
-    border:1;
-    color:white;
+    list-style-type:none;
+    margin:0;
+    padding:0;  
+    height:100%;
+    overflow:auto;
+    border:1px solid black;
+}
+
+li a{
+    display:block;
+    color: #FF8306;
+    text-align:center;
+    padding:10px 0px;
+    text-decoration: none;
+    border:1px solid black; 
+}
+    
+li a:hover{
+    background-color:white;
+    color:black;
+   
+}
+
+.extreme{
+    color:red;
+    text-align:center;
+}
+.navzone{
+    display:block;
+    position:fixed;
+    text-align:center;
+    background-color:blue;
+    width:auto;
+    font-size:150%;
+    border:1px solid black;
+}
+
+.content{
+    text-align:center;
+    
+}
+.prose{
+    color:#FF00FF;
+    display:block;
+    border:1px solid green;
+    width:30em;
+    height:auto;
+    margin:auto;
+}
+.prose:hover{
+    background-color:fuchsia;
+    color:black;
+}
+
+.prose:active{
+    width:50em;
+}
 }

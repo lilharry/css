@@ -4,7 +4,7 @@ body{
 
 p{
     color:grey;
-    text-align:right;
+    text-align:center;
     font-size:300%;
 }
 
@@ -31,4 +31,31 @@ ul{
     position:fixed;
     top:2em;
     background-color:yellow;
+}
+
+.extreme{
+    font-family:impact;
+}    
+
+.navzone{
+    font-style:oblique;
+    font-size:200%;
+    
+}
+    
+.content{
+    font-size:100%;
+ 
+}
+
+.prose{
+    
+    text-align:center;
+    
+    
+}
+#tehlulz{
+    font-weight:bold;
+    color:red;
+    
 }
